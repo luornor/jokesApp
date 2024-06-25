@@ -9,7 +9,7 @@ export const AlljokesApi = createApi({
     endpoints: (builder) => ({
         getAllJokes: builder.query({
         query: () => ({
-            url: `joke/Any?amount=${10}`,
+            url: `joke/Any?amount=${20}`,
             method: "GET",
         }),
         }),
